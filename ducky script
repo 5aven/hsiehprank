@@ -1,3 +1,15 @@
+command space
+"terminal"
+enter
+
 wget https://raw.githubusercontent.com/5aven/hsiehprank/main/talker.sh -O talker.sh
 chmod +x talker.sh
+
 ./talker.sh
+
+control z
+
+bg
+disown
+
+command w
