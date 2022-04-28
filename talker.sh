@@ -56,7 +56,13 @@ do
 		fi
 		
 		osascript -e "set Volume $volume"
-		say "$input"
+		
+		if echo "$input" | grep 'https'
+		then
+			open $input
+		else
+			say "$input"
+		fi
 	fi
 	
 	sleep $time
