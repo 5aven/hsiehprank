@@ -1,5 +1,5 @@
-Input: 
+Input: hello
 Time increment: 1
 Random? (y/n): n
-On? (y/n): n
-Volume (1/7): 5
+On? (y/n): y
+Volume (1/7): 1
